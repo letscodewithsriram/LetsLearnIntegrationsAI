@@ -1,0 +1,26 @@
+############# GEMINI API ###########################
+
+print(response.parts)
+[Part(
+  text="""Understood! I'm here and ready to respond. My connection is good.
+What would you like to test? Do you have any specific questions or requests?
+"""
+)]
+
+===========
+
+print(response.code_execution_result)
+None
+
+==========
+
+print(response.text)
+Understood! I'm here and ready to respond. My connection is good.
+What would you like to test? Do you have any specific questions or requests?
+
+===========
+
+print(response.executable_code)
+None
+
+############# GEMINI API ###########################
